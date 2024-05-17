@@ -3,6 +3,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.flex{
+  display: flex;
+}
 button{
   border: 1px solid rgb(132, 196, 255);
   background: none;
@@ -12,7 +15,6 @@ button{
 }
 body{
   background-color: aliceblue;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -25,7 +27,6 @@ body{
   text-align: center;
 }
 .todoInput-container{
-  display: flex;
   align-items: center;
   justify-content: space-around;
 }
